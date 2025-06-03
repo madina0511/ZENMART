@@ -398,7 +398,7 @@
   height: 452px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .selling_product_frame .product_boxes .product_box {
   width: 306px;
@@ -609,7 +609,7 @@
 .spec_product_frame .spec_product_wrapper .small_product_wrapper {
   margin-left: 30px;
   width: 620px;
-  height: 368px;
+  height: 395px;
 
   display: flex;
   flex-direction: row;
@@ -652,8 +652,5 @@
 .spec_product_frame .small_product_box img {
   position: absolute;
   right: 30px;
-  top: 40px;
-}
-.spec_product_frame .small_product_box.fitblue img {
-  top: 67px;
+  bottom: 20px;
 }
